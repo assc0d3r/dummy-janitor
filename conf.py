@@ -5,6 +5,7 @@ CLIENT_NAME = "sessions/"+os.getenv("CLIENT_NAME")
 API_ID = os.getenv("API_ID")
 API_HASH = os.getenv("API_HASH")
 CHAT_ID = os.getenv("CHAT_ID")
+SESSION = os.getenv("SESSION")
 
 
 # MATCHERS_PATH = "/matchers_dir/matchers.db"
