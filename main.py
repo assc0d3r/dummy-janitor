@@ -10,7 +10,7 @@ logging.basicConfig(
   level=logging.INFO 
 )
 
-client = TelegramClient(CLIENT_NAME, api_id=API_ID, api_hash=API_HASH).start()
+client = TelegramClient(StringSession(SESSION), APP_ID, API_HASH).start()
 db = MatchersDriver(db_pass=MATCHERS_PATH)
 deletion_logic = DeletionLogic(db=db)
 
