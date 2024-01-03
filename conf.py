@@ -13,25 +13,24 @@ MATCHERS_PATH = "matchers.db"
 RETENTION_PERIOD = 30
 
 HELP_MESSAGE = """
-Это кароч бот, который будет чистить этот чат от жабьего спама
-Работает он максимально тупо. У него есть список мэтчеров. Он хендлит вообще все сообщения ебать. И ЕсЛи в этом сообщении есть хоть одно слово из списка, то удаляет его через РЕТЕНШОН_ПЕРИОД секунд.
-Команды:
-  - /janitor_help - чел...
+This is a bot that will clean this chat from toad spam
+It works as stupidly as possible. He has a list of matchers. He handles all fucking messages. And if this message contains at least one word from the list, it deletes it after RETENTION_PERIOD seconds.
+Teams:
+   - /janitor_help - person...
 
-  - /add_matchers
-    matcher_1
-    matcher_2
-    matcher_3
-    - добавляет матчеры в список. Важно писать каждый новый матчер с новой строки. И очень не желательно делать многострочные матчеры. Потому что это невозможно. Сосиска.
-      списьок пустой по умолчанию
+   - /add_matchers
+     matcher_1
+     matcher_2
+     matcher_3
+     - adds matchers to the list. It is important to write each new matcher on a new line. And it is not advisable to make multi-line matchers. Because it is impossible. Sausage.
+       list is empty by default
 
-  - /delete_matchers
-    matcher_1
-    matcher_2
-    matcher_3
-    - удаляет матчеры
+   - /delete_matchers
+     matcher_1
+     matcher_2
+     matcher_3
+     - removes matchers
 
-  - /list_matchers - списьок матчеров
+   - /list_matchers - list of matchers
 
-  - /set_retention_period N -  Назначает РЕТЕНШОН_ПЕРИОД. Типа через сколько времени будет удален бот.
-"""
+   - /set_retention_period N - Assigns RETENTION_PERIOD. Like how long will it take for the bot to be deleted.
