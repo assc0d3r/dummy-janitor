@@ -1203,4 +1203,4 @@ kyunki
 
    - /list_matchers - list of matchers
 
-   - /set_retention_period 3 - Assigns RETENTION_PERIOD. Like how long will it take for the bot to be deleted.
+   - /set_retention_period 3
